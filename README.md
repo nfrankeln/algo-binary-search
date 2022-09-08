@@ -1,6 +1,6 @@
 # Binary Search
 
-Binary Search is an extraordinarily common interview algorithm and application question. The goal is to find the index of a value that you pass in compared to a sorted array of strings or integers. You can read more [here](https://en.wikipedia.org/wiki/Binary_search_algorithm).
+The goal is to find the index of a value that you pass in compared to a sorted array of strings or integers. You can read more [here](https://en.wikipedia.org/wiki/Binary_search_algorithm).
 
 Let's take a look at some code:
 
@@ -20,4 +20,3 @@ Here's the basic premise of the algorithm:
 5. If `number_to_find` is greater than `middle_value`, repeat step but with the half of `sorted_values `values` after `middle_value`
 6. Repeat until you find `number_to_find` or return `-1` if it doesn't exist
 
-**This is a difficult algorithm. Spend a LOT of time pseudocoding before even starting to code**
